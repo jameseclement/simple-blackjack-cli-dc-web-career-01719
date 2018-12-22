@@ -47,6 +47,7 @@ def hit?(card_total)
     elsif sh =="s"
     card_total
   else invalid_command
+    
   end
   
 end
@@ -55,8 +56,7 @@ end
 def invalid_command
   # code invalid_command here
   puts "Please enter a valid command."
-  prompt_user
-  get_user_input
+  
   
 end
 
